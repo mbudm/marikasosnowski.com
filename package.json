@@ -1,0 +1,19 @@
+{
+  "name": "msos",
+  "version": "1.0.0",
+  "description": "msos.com static site",
+  "main": "index.js",
+  "repository": "https://github.com/mbudm/marikasosnowski.com.git",
+  "author": "Steve Roberts <mbudm.com@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "serve": "6.5.3",
+    "serverless-cloudfront-invalidate": "^1.4.0",
+    "serverless-s3-remover": "^0.6.0",
+    "serverless-s3-sync": "^1.14.3"
+  },
+  "scripts": {
+    "serve": "serve ./public"
+  }
+}
