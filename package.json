@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^5.0.1",
-    "serve": "6.5.3",
+    "serve": "10.1.2",
     "serverless-cloudfront-invalidate": "^1.4.0",
     "serverless-s3-remover": "^0.6.0",
     "serverless-s3-sync": "^1.14.3"
