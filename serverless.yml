@@ -1,6 +1,6 @@
 service: marikasosnowski
 
-frameworkVersion: ">=1.1.0 <2.0.0"
+# TODO: Needs updating in the meantime simply upload manually and invalidate the Cfront cache
 
 plugins:
   - serverless-s3-sync
@@ -20,7 +20,7 @@ custom:
       - '/*'
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs20.x
   region: us-east-1
   environment:
     CUSTOM_DOMAIN: marikasosnowski.com
