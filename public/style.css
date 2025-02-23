@@ -12,12 +12,6 @@ article {
   padding: 20px;
 }
 
-input[type="text"] {
-  width: 40%;
-  padding: 0.3em;
-  margin:0 0.3em 1.2em 0;
-}
-
 a {
   color:rgb(66, 66, 162);
 }
@@ -25,14 +19,3 @@ a:hover{
   color:rgb(80, 80, 188);
 }
 
-input[type="submit"] {
-  width: 30%;
-  padding: 0.5em 0.3em;
-  background:rgb(66, 66, 162);
-  border: none;
-  color: #fff;
-  cursor: pointer;
-}
-input[type="submit"]:hover {
-  background:rgb(80, 80, 188);
-}
