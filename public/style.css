@@ -19,3 +19,10 @@ a:hover{
   color:rgb(80, 80, 188);
 }
 
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em 0;
+}
+
